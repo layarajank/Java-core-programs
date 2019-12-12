@@ -1,14 +1,17 @@
 package New;
 
-public class Static {
-	static int count=0;
-    Static()
-	{
+public class Static 
+{
+     static int count=0; //initializing static variable
+     //Constructor
+     Static()
+     {
 	count++;
 	System.out.println(count);
-	}
+     }
     public static void main(String args[])
-    {
+    {   
+	//creating objects
     	Static c1=new Static();
     	Static c2=new Static();
     	Static c3=new Static();
