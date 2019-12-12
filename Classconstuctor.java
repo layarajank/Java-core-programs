@@ -1,10 +1,12 @@
 package oopsconcept;
 import java.util.Scanner;
 
-public class Classconstuctor {
-	public String name,address,phno,email,prooftype,proofid;
-	Classconstuctor(String name,String address,String phno,String email,String prooftype,String proofid)
-	{
+public class Registration 
+{
+       public String name,address,phno,email,prooftype,proofid; //data members
+	//constructor
+	Registration(String name,String address,String phno,String email,String prooftype,String proofid)
+	{ 
 		this.name=name;
 		this.address=address;
 		this.phno=phno;
@@ -15,13 +17,13 @@ public class Classconstuctor {
 	
 	void display()
 	{
-	System.out.println("Thank you for Registering.....");
-	System.out.println("Name: "+name);
-	System.out.println("Address: "+address);
-	System.out.println("Phone Number: "+phno);
-	System.out.println("Email id: "+email);
-	System.out.println("Proof Type: "+prooftype);
-	System.out.println("Proof Id: "+proofid);
+		System.out.println("Thank you for Registering.....");
+		System.out.println("Name: "+name);
+		System.out.println("Address: "+address);
+		System.out.println("Phone Number: "+phno);
+		System.out.println("Email id: "+email);
+		System.out.println("Proof Type: "+prooftype);
+		System.out.println("Proof Id: "+proofid);
 	}
 	public static void main(String args[])
 	{
@@ -38,7 +40,7 @@ public class Classconstuctor {
 		String prooftype=s.next();
 		System.out.println("Enter your proof id");
 		String proofid=s.next();
-		Classconstuctor a=new Classconstuctor(name,address,phno,email,prooftype,proofid);
-		a.display();
+		Registration a=new Registrtion(name,address,phno,email,prooftype,proofid);//creating object and passing arguments to constructor
+		a.display(); // calling diplay method by using object
 	}
 }
