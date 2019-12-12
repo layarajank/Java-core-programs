@@ -1,6 +1,5 @@
 package oopsconcept;
 import java.util.Scanner;
-
 public class Registration 
 {
        public String name,address,phno,email,prooftype,proofid; //data members
