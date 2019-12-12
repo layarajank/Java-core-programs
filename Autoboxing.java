@@ -1,10 +1,11 @@
 package wrapper;
 
-public class Autoboxing {
+public class Autoboxing
+{
 	public static void main(String args[])
 	{
-		Integer i=20;
-		Integer j=i;
+		Integer i=20; //Converting int to integer
+		Integer j=i;  //Autoboxing now compiler will write integer.valueOf(a) internally
 		System.out.println(i+ " "+j);
 	}
 	
