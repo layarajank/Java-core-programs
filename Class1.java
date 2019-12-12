@@ -1,11 +1,12 @@
 package oopsconcept;
 import java.util.Scanner;
-public class Class1 {
-	String name,address,phno,email,prooftype,proofid;
-	public static void main(String args[])
-	{
+public class Class1 
+{
+   String name,address,phno,email,prooftype,proofid; // declaring data members
+     public static void main(String args[])
+     {
 	Scanner s=new Scanner(System.in);
-	Class1 a=new Class1();
+	Class1 a=new Class1();                       //creating object
 	System.out.println("Enter your name");
 	a.name=s.next();
 	System.out.println("Enter your address");
@@ -25,6 +26,6 @@ public class Class1 {
 	System.out.println("Email id: "+a.email);
 	System.out.println("Proof Type: "+a.prooftype);
 	System.out.println("Proof Id: "+a.proofid);
-	}
+    }
 
 }
