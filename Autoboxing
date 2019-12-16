@@ -8,6 +8,4 @@ public class Autoboxing
 		Integer j=i;  //Autoboxing now compiler will write integer.valueOf(a) internally
 		System.out.println(i+ " "+j);
 	}
-	
-
 }
