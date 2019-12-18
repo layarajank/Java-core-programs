@@ -1,5 +1,5 @@
 package oppsconcept;
-
+//base class
 public class Parentclass 
 {
 	public void add()
@@ -10,10 +10,11 @@ public class Parentclass
 	}
 		public static void main(String args[])
 		{
-			Parentclass obj=new Child();
+			Parentclass obj=new Child();//creating instance for child class
 			obj.add();			
 		}
 }
+//child class extends parent class
 class Child extends Parentclass
 {
 	public void add()
@@ -22,5 +23,4 @@ class Child extends Parentclass
 		c=a+b+25;
 		System.out.println("c: "+c);
 	}
-	
 }
