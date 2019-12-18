@@ -1,8 +1,7 @@
 package oopsconcept;
-
 import java.util.Scanner;
-
-public class Encapsulation {
+public class Encapsulation
+{
 	String name,address,phno,email,prooftype,proofid; //member variables
 	public static void main(String args[])
 	{
@@ -37,6 +36,4 @@ public class Encapsulation {
 	   System.out.println("Proof Id: "+r.getproofid(proofid));
 	   s.close();
 	}
-	
-
 }
