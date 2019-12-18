@@ -1,13 +1,14 @@
 package oppsconcept;
 
 public class Overriding 
-{
+{     //overrides the parent class method by child class method
 	public static void main(String args[])
 	{
-		Parent obj =new Childclass();
+		Parent obj =new Childclass(); //creating object for child class with the reference of parent class
 		obj.add(10,5);
 	}
 }
+// parent class
 class Parent 
 {
 	public void add(int a,int b)
@@ -16,12 +17,13 @@ class Parent
       System.out.println(c);
 	}
 }
+//child class
 class Childclass extends Parent
-{
+{      // overrides
 	public void add(int a,int b)
 	{
       int c=a+b;
-      System.out.println(c);
+      System.out.println(c); 
 	}
 }
 
