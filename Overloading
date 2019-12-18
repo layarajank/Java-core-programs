@@ -1,6 +1,6 @@
 package oppsconcept;
 public class Overloading
-{
+{       // same function name with different return types and arguments
 	public void area(int side)
 	{
 		int area =side*side;
@@ -25,13 +25,10 @@ public class Overloading
 	{
 		Overloading obj=new Overloading();
 		System.out.println("\tArea");
+		//passing different arguments
 		obj.area(5);
 		obj.area(3,4);
 		obj.area(5.0f);
 		obj.area(3.0f,4.0f);
 	}
-	
-	
-	
-
 }
