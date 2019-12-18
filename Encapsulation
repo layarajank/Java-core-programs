@@ -1,5 +1,6 @@
 package oopsconcept;
 import java.util.Scanner;
+// hiding datas inside a class ie the wrapping up of datas in to a class(unit)
 public class Encapsulation
 {
 	String name,address,phno,email,prooftype,proofid; //member variables
